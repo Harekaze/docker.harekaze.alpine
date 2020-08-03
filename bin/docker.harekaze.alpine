@@ -9,3 +9,4 @@ oe_setup_addon "$name"
 
 docker rm "$name" 2>/dev/null
 docker run --name="$name" \
+  alpine:latest sleep 1000
